@@ -1,0 +1,8 @@
+target 'iOSAddRN'  do
+pod 'React',
+:path => './node_modules/react-native',
+:subspecs => [
+ 'Core',
+ 'RCTText',
+ 'RCTWebSocket', ]
+end
